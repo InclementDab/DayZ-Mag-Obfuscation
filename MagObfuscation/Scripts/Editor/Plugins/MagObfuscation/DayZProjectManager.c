@@ -2,7 +2,7 @@
 [WorkbenchPluginAttribute("Edit Project", "Edit Project", "", "", {"ResourceManager", "ScriptEditor"})]
 class DayZProjectManager: DayZTool
 {
-	string ModName = "ModTemplate";
+	string ModName = "MagObfuscation";
 		
 	override void Run()
 	{

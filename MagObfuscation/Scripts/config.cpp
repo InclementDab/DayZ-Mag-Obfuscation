@@ -1,7 +1,7 @@
 
 class CfgPatches
 {
-	class ModTemplate_Scripts
+	class MagObfuscation_Scripts
 	{
         units[] = {};
         weapons[] = {};
@@ -12,15 +12,15 @@ class CfgPatches
 
 class CfgMods 
 {
-	class DZ_ModTemplate
+	class DZ_MagObfuscation
 	{
-		name = "Mod Template";
-		dir = "ModTemplate";
+		name = "Mag Obfuscation";
+		dir = "MagObfuscation";
 		credits = "";
 		author = "";
-		creditsJson = "ModTemplate/Scripts/Data/Credits.json";
-		versionPath = "ModTemplate/scripts/Data/Version.hpp";
-		inputs = "ModTemplate/Scripts/Data/Inputs.xml";
+		creditsJson = "MagObfuscation/Scripts/Data/Credits.json";
+		versionPath = "MagObfuscation/scripts/Data/Version.hpp";
+		inputs = "MagObfuscation/Scripts/Data/Inputs.xml";
 		type = "mod";
 		dependencies[] =
 		{
@@ -32,7 +32,7 @@ class CfgMods
 			{
 				files[]=
 				{
-					"ModTemplate/gui/imagesets/dayz_editor_gui.imageset"
+					"MagObfuscation/gui/imagesets/dayz_editor_gui.imageset"
 				};
 			};
 			class engineScriptModule
@@ -40,8 +40,8 @@ class CfgMods
 				value = "";
 				files[] =
 				{
-					"ModTemplate/scripts/common",
-					"ModTemplate/scripts/1_core"
+					"MagObfuscation/scripts/common",
+					"MagObfuscation/scripts/1_core"
 				};
 			};
 
@@ -50,8 +50,8 @@ class CfgMods
 				value="";
 				files[] = 
 				{
-					"ModTemplate/scripts/common",
-					"ModTemplate/scripts/3_Game"
+					"MagObfuscation/scripts/common",
+					"MagObfuscation/scripts/3_Game"
 				};
 			};
 			class worldScriptModule
@@ -59,8 +59,8 @@ class CfgMods
 				value="";
 				files[] = 
 				{
-					"ModTemplate/scripts/common",
-					"ModTemplate/scripts/4_World"
+					"MagObfuscation/scripts/common",
+					"MagObfuscation/scripts/4_World"
 				};
 			};
 
@@ -69,8 +69,8 @@ class CfgMods
 				value="";
 				files[] = 
 				{
-					"ModTemplate/scripts/common",
-					"ModTemplate/scripts/5_Mission"
+					"MagObfuscation/scripts/common",
+					"MagObfuscation/scripts/5_Mission"
 				};
 			};
 		};

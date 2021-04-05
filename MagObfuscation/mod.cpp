@@ -1,0 +1,11 @@
+name = "MagObfuscation";
+picture = "MagObfuscation/gui/images/dayz_editor_icon_black.edds";
+logo = "MagObfuscation/gui/images/dayz_editor_icon_black.edds";
+logoSmall = "MagObfuscation/gui/images/dayz_editor_icon_black.edds";
+logoOver = "MagObfuscation/gui/images/dayz_editor_icon_black.edds";
+tooltip = "MagObfuscation";
+overview = "";
+action = "";
+author = "";
+authorID = "";
+version = "";
